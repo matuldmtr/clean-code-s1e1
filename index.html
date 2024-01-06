@@ -6,11 +6,11 @@
     <title>Todo App</title>
   </head>
   <body>
-    <div class="header">
+    <header class="header">
       <img src="./eisenhower-matrix.jpg">
       <a class="more-info" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
-    </div>
-    <div class="container">
+    </header>
+    <main class="container">
       <p id="add-element">
         <label for="new-task" class="block-title">Add Item</label>
         <div class="task-row-wrapper">
@@ -27,7 +27,7 @@
           <button class="btn btn--edit">Edit</button>
           <button class="btn btn--delete"><img src="./remove.svg"></button>
         </li>
-        <li class="task-item edit-mode">
+        <li class="task-item">
           <input type="checkbox">
           <label class="task">Go Shopping</label>
           <input type="text" value="Go Shopping" class="task">
@@ -45,7 +45,7 @@
           <button class="btn btn--delete"><img src="./remove.svg"></button>
         </li>
       </ul>
-    </div>
+    </main>
     <script src="app.js"></script>
   </body>
 </html>
